@@ -1,4 +1,5 @@
 @import url("palette.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Source+Code+Pro:wght@600&display=swap');
 
 * {
   margin: 0;
@@ -6,7 +7,8 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
+
 }
 
 /* ...........................Navigation section................ */
@@ -19,7 +21,7 @@ nav {
   width: 100%;
 }
 
-.HYF-logo-formediaquary{
+.HYF-logo-formediaquary {
   margin: 2vh 2vh 2vh 4vh;
   height: 14vh;
   width: 20vh;
@@ -37,8 +39,9 @@ nav {
 
 
 button a {
- color:var(--secondary-color)
+  color: var(--secondary-color)
 }
+
 nav ul {
   justify-content: space-between;
   margin-right: 3%;
@@ -74,12 +77,12 @@ nav ul li {
 }
 
 
-  #collaspasbtn {
-    margin-left: 120vh;
-    font-size: 28px;
-    color: var(--primary-color);
-    margin-bottom: 30px;
-    cursor: pointer;
+#collaspasbtn {
+  margin-left: 120vh;
+  font-size: 28px;
+  color: var(--primary-color);
+  margin-bottom: 30px;
+  cursor: pointer;
   display: none;
 }
 
@@ -145,7 +148,7 @@ nav ul li {
 }
 
 .slider .massage p {
- 
+
   padding: 15vh 5vh 10vh 5vh;
   height: 140vh;
   width: 70vw;
@@ -200,6 +203,7 @@ nav ul li {
   font-size: 1.2rem;
   font-family: "Source Code Pro", monospace;
   color: var(--secondary-color);
+  text-align: justify;
 }
 
 .goal:hover {
@@ -225,7 +229,7 @@ nav ul li {
   width: 100%;
   justify-content: space-around;
   align-items: center;
-;
+  ;
 
 }
 
@@ -262,7 +266,7 @@ nav ul li {
 
 .tab p {
   height: 20vh;
-  width: 62vh;
+  width: 60vh;
   margin: 0px 4px 1px 6px;
   font-size: 0.8rem;
   text-align: center;
@@ -542,7 +546,7 @@ nav ul li {
     display: flex;
 
   }
-  
+
   .goal p {
     margin: 7vh 5vh 5vh 10vh;
     align-items: center;
@@ -550,14 +554,14 @@ nav ul li {
     width: 80vw;
     font-size: 1rem;
   }
- 
+
 }
 
 @media only screen and (max-width: 550px) {
   .goal {
     height: 150vh;
     width: 100%;
- 
+
 
   }
 
@@ -584,28 +588,32 @@ nav ul li {
     width: 90vw;
     font-size: 2.8rem;
   }
-  .tab-contaner{
+
+  .tab-contaner {
     margin-top: 40vh;
     /* height: 300vh;
     */
 
   }
-  .tab{
+
+  .tab {
     height: 90vh;
     width: 60vw;
 
   }
+
   .tab:hover {
     height: 90.12vh;
     width: 60.12vw;
-    
-  
+
+
   }
 
   .tabimage {
     height: 50vh;
     width: 60vw;
   }
+
   .tab p {
     height: 30vh;
     width: 50vw;
@@ -615,121 +623,136 @@ nav ul li {
 
 @media only screen and (max-width: 420px) {
 
-  .HYF-logo-formediaquary{
-    margin: 1vh 1vh 1vh 2vh;
-    height: 4.5vh;
-    width: 6.5vh;
-;
+  .HYF-logo-formediaquary {
+    margin: 1.2vh 2vh 1vh 2vh;
+    height: 7vh;
+    width: 9vh;
   }
-  
-  
-  .goal {
-    height: 25vh;
+
+  nav {
+    height: 9vh;
     width: 100%;
   }
 
-  .goal:hover{
-    height: 20.2vh;
+
+  .goal {
+    height:30vh;
+    width: 100%;
+    margin-bottom: 0%;
+
+  }
+
+  .goal:hover {
+    height: 30.2vh;
     width: 100.5%;
-  }
- .goal p{
- margin: 2vh 2vh 2vh 2vh;
- }
-
- nav {
-  height: 6vh;
-  width: 100%;
-}
-
-.slider {
-  
-  width: 100%;
-  height: 25vh;
-}
-
-.slider .massage p {
-
-  padding: 0vh 5vh 15vh 5vh;
-  height: 140vh;
-  width: 100vw;
-  font-size: 2rem;
-  margin-top: 3vh;
-  
-}
-#collaspasbtn {
-  margin-left: 64vw;
-  font-size: 22px;
-
-}
-#collaspasbtn:active{
-  font-size: 19px;
-}
-
-
-#icon{
-  font-size: 20px;
-}
-#icon:active{
-  font-size: 18px;
-}
-  .tab {
-    height: 32vh;
-    width: 60vw;
-    align-items: center;
 
   }
-  .tab:hover{
-    height: 32.2vh;
-    width: 60.2vw;
+
+  .goal p {
+    margin: 3vh 2vh 2vh 4vh;
+    font-size: 1rem;
+    width: 85vw;
+
   }
+
+
+
+
+  .slider {
+
+    width: 100%;
+    height: 50vh;
+  }
+
+  .slider .massage p {
+
+    padding: 8vh 5vh 15vh 5vh;
+    height: 60vh;
+    width: 90vw;
+    font-size: 2.5rem;
+    margin-top: 3vh;
+
+  }
+
+  #collaspasbtn {
+    margin-left: 64vw;
+    font-size: 24px;
+
+  }
+
+  #collaspasbtn:active {
+    font-size: 19px;
+  }
+
+
+  #icon {
+    font-size: 20px;
+  }
+
+  #icon:active {
+    font-size: 18px;
+  }
+
   .tab-contaner {
 
-    height: 120vh;
+    height: 200vh;
     width: 100%;
-    margin-top: 10vh
+    margin-top: 30vh;
 
-  
   }
+
+  .tab {
+    height: 60vh;
+    width: 95vw;
+  }
+
+  .tab:hover {
+    height: 60.2vh;
+    width: 95.2vw;
+  }
+
+
+
   .tabimage {
     margin: 0;
-    height: 18vh;
-   
+    height: 30vh;
+    width: 95vw;
+
   }
-  
+
   .tab p {
-    height: 15vh;
-    width: 46vw;
-    font-size: 0.6.5rem;
-   text-align: center;
-  margin: 0px 2px 2px 27px;
+    height: 30vh;
+    width: 80vw;
+    font-size:1rem;
+    text-align: center;
+    margin: 0px 2px 2px 26px;
     font-family: "Poppins", sans-serif;
- 
-    
+
   }
+
 
   .tab h1 {
     text-align: center;
-    margin-top: 0vh;
+    margin-top: 1.5vh;
     color: var(--secondary-color);
-    font-size: 1.25rem;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+
   }
 
   .footer-container {
     width: 100%;
-    height: 17vh;
+    height: 25vh;
   }
 
- div.f-text {
-    align-items: center;
+  .social-logo {
+
+    margin-top: 8px;
+  }
+
+  .f-text {
     height: 5vh;
-    color: var(--primary-color);
-
 
   }
 
-  /* .tabimage {
-    height: 50vh;
-    width: 60vw;
-line-height: 20px;
-  } */
 }
