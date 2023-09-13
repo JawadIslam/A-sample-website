@@ -1,0 +1,43 @@
+@import url("palette.css");
+.background-image {
+    background-image: url('images/logo.png');
+    opacity: .2; /* Replace 'your-image.jpg' with your image file */
+    background-size: cover;
+    /* background-position: center; */
+    width: 60vh;
+    height: 60vh;
+    
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: -1;
+    margin: 30vh 70vh;
+}
+  
+  /* Create an overlay with a darker theme */
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.050); /* Adjust the alpha value for the desired darkness */
+    width: 100%;
+    height: 200vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+  }
+  
+  /* Style your content within the overlay */
+  .overlay h1 {
+    color: var(--secondary-color);
+
+  }
+  
+  .overlay p {
+    color: white;
+  }
+  
+  
