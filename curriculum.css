@@ -1,21 +1,43 @@
 @import url("palette.css");
 .background-image {
     background-image: url('images/logo.png');
-    opacity: .2; /* Replace 'your-image.jpg' with your image file */
+    opacity: .1; /* Replace 'your-image.jpg' with your image file */
     background-size: cover;
-    /* background-position: center; */
     width: 60vh;
     height: 60vh;
     align-items: center;
     justify-content: center;
     position: fixed;
     z-index: -1;
-    margin: 30vh 70vh;
+    margin: 30vh 75vh;
 }
   
-  /* Create an overlay with a darker theme */
+#course-h1{
+  font-family: "Source Code Pro", monospace;
+}
+
+
+
+#course{
+  list-style: none;
+  padding-left: 0;
+
+}
+/* Style bullet points for unordered lists */
+#course li{
+  list-style-type: disc;
+  color: #616161;
+  margin-left: 20px;
+  text-align: left;
+ 
+}
+
+
+
+
+
   .overlay {
-    background-color: rgba(0, 0, 0, 0.050); /* Adjust the alpha value for the desired darkness */
+    background-color: rgba(179, 179, 179, 0.05); /* Adjust the alpha value for the desired darkness */
     width: 100%;
     height: 200vh;
     position: absolute;

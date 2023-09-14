@@ -1,5 +1,5 @@
 @import url("palette.css");
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Source+Code+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&family=Source+Code+Pro:wght@600&display=swap');
 
 * {
   margin: 0;
@@ -68,6 +68,7 @@ nav ul li {
   font-weight: bold;
   font-family: "Poppins", sans-serif;
   background-color: var(--primary-color);
+  user-select: none;
 }
 
 .sub-button:hover {
@@ -85,6 +86,7 @@ nav ul li {
   margin-bottom: 30px;
   cursor: pointer;
   display: none;
+  user-select: none;
 }
 
 
@@ -705,19 +707,19 @@ display: flex;
 
 
   .goal {
-    min-height: 29vh;
+    min-height: 28vh;
     min-width: 100%;
     margin-bottom: 0%;
   }
 
   .goal:hover {
-    min-height: 29.2vh;
+    min-height: 28.2vh;
     min-width: 100%;
 
   }
 
   .goal p {
-    min-height: 29.5vh;
+    min-height: 28.5vh;
     margin: 0;
     padding: 3vh;
     font-size: 1rem;
