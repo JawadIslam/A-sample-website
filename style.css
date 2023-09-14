@@ -486,7 +486,7 @@ display: flex;
     left: -100rem;
     background-color: var(--secondary-color);
     text-align: center;
-    transition: all .8s;
+    transition: all 2.5s;
 
 
   }
