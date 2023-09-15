@@ -11,7 +11,7 @@
 
 }
 
-/* ...........................Navigation section................ */
+/* .......................................Navigation section......................................... */
 
 nav {
   background: var(--primary-color);
@@ -120,8 +120,7 @@ nav ul li {
 }
 
 
-/* .................................slider....................................... */
-
+/* ............................................slider..................................................... */
 .slider {
   display: flex;
   flex-direction: column;
@@ -134,7 +133,6 @@ nav ul li {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
   /* margin-top:20vh; */
   /* background-size: contain; */
 }
@@ -159,7 +157,7 @@ nav ul li {
   color: var(--primary-color);
   font-weight: 800;
   font-family: "Source Code Pro", monospace;
-  letter-spacing:-2px;
+  letter-spacing: -2px;
   text-align: center;
 }
 
@@ -222,7 +220,6 @@ nav ul li {
 
 
 /*......................................information tab................................ */
-
 
 
 .tab-contaner {
@@ -304,8 +301,7 @@ h2 {
   font-size: 2rem;
 }
 
-/* 
-  ............................news............................... */
+/*..........................................News...................................... */
 
 .news {
   display: flex;
@@ -377,16 +373,16 @@ h2 {
 }
 
 .footer-container .f-text {
-display: flex;
+  display: flex;
   color: var(--primary-color);
   flex: 2;
   align-items: center;
   justify-content: center;
- 
+
 
 }
 
-.f-text p{
+.f-text p {
   text-align: center;
 }
 
@@ -459,7 +455,25 @@ display: flex;
   }
 }
 
+
+
 @media only screen and (max-width: 858px) {
+
+  /* ..........................................NAVIGATIONsection(858px)............................ */
+  .HYF-logo-formediaquary {
+    display: block;
+  }
+
+
+  .HYF-logo {
+    display: none;
+  }
+
+  nav ul li {
+    display: block;
+    line-height: 1px;
+  }
+
   #icon {
     display: block;
   }
@@ -469,13 +483,14 @@ display: flex;
   }
 
 
-  .HYF-logo-formediaquary {
+  #collaspasbtn {
     display: block;
   }
 
-  .HYF-logo {
-    display: none;
+  #collaspasbtn:active {
+    font-size: 23px;
   }
+
 
   #mylist {
     padding-top: 30px;
@@ -487,12 +502,9 @@ display: flex;
     background-color: var(--secondary-color);
     text-align: center;
     transition: all 2.5s;
-
-
   }
 
   .sub-button {
-
     font-size: 1.06rem;
     border: 1px solid transparent;
     color: var(--primary-color);
@@ -504,20 +516,6 @@ display: flex;
     width: 100%;
     color: var(--secondary-color);
     transition: 2s;
-  }
-
-  #collaspasbtn {
-    display: block;
-  }
-
-  #collaspasbtn:active {
-    font-size: 23px;
-  }
-
-  nav ul li {
-
-    display: block;
-    line-height: 1px;
   }
 
   .Primary-button {
@@ -540,13 +538,13 @@ display: flex;
     width: 100%;
   }
 
-  /* .........................................slidermedia..................................... */
+  /* .........................................SLIDERmedia(767px)..................................... */
   .slider .massage p {
     font-size: 3rem;
 
   }
 
-  /* ..........................................goalmedia...................................................... */
+  /* .........................................GOALmedia(767px)...................................................... */
   .goal {
     height: 80vh;
     width: 100%;
@@ -555,22 +553,22 @@ display: flex;
   .goal {
     height: 30vh;
     width: 90vw;
-  
+
   }
-  
+
   .goal p {
     padding: 5vh;
     height: 30vh;
     width: 90vw;
     font-size: 1rem;
   }
-  
+
   .goal:hover {
     height: 30vh;
     width: 90vw;
   }
 
-  /* ...................................Tabmedia....................................... */
+  /* ...................................TABmedia(767px)....................................... */
   .tab-contaner {
     margin-top: 30vh;
     height: 300vh;
@@ -597,8 +595,9 @@ display: flex;
     height: 30vh;
     width: 46vw;
     font-size: 0.8rem;
-    margin:4vh;
+    margin: 4vh;
   }
+
   .tabimage {
     height: 50vh;
     width: 50vw;
@@ -606,7 +605,7 @@ display: flex;
 
 
 
-  /* .......................................Footermedia............................ */
+  /* .......................................FOOTERmedia(767p)x............................ */
   .footer-container {
     display: flex;
     width: 100%;
@@ -620,18 +619,20 @@ display: flex;
     font-size: .8rem;
   }
 
- 
-
 }
+
+
 
 @media only screen and (max-width: 550px) {
 
+  /* .................................. NAVIGATIONSECTIONMedia(550px)............................. */
   #collaspasbtn {
     margin-left: 70vh;
     font-size: 28px;
     margin-bottom: 30px;
   }
 
+  /* .................................. GOALMedia(550px)............................. */
   .goal {
     height: 45vh;
     width: 90vw;
@@ -650,7 +651,7 @@ display: flex;
   }
 
 
-
+  /* ..................................TABMedia(550px)............................. */
   .tab-contaner {
     margin-top: 40vh;
     height: 300vh;
@@ -682,6 +683,7 @@ display: flex;
     margin: 0vh 0vh 0vh 5vh;
   }
 
+  /* .................................. QUOATEMedia(550px)............................. */
   .quotae h2 {
     font-size: 1.2rem;
   }
@@ -698,14 +700,48 @@ display: flex;
     width: 11vh;
   }
 
-  
-  
+  /* ............................NAVIGATIONMediaPhone(420px).............................. */
   nav {
     height: 9vh;
     width: 100%;
   }
 
+  #collaspasbtn {
+    margin-left: 64vw;
+    font-size: 24px;
 
+  }
+
+  #collaspasbtn:active {
+    font-size: 19px;
+  }
+
+  #icon {
+    font-size: 20px;
+  }
+
+  #icon:active {
+    font-size: 18px;
+  }
+
+  /* ............................sliderMediaPhone(420px)................................. */
+  .slider {
+    width: 100%;
+    height: 80vh;
+  }
+
+  .slider .massage p {
+
+    padding: 8vh 5vh 15vh 5vh;
+    height: 60vh;
+    width: 90vw;
+    font-size: 2.5rem;
+    margin-top: 15vh;
+
+
+  }
+
+  /* ..................................GOALMediaPhone(420px)................................... */
   .goal {
     min-height: 28vh;
     min-width: 100%;
@@ -727,44 +763,7 @@ display: flex;
 
   }
 
-
-
-
-  .slider {
-    width: 100%;
-    height: 80vh;
-  }
-
-  .slider .massage p {
-
-    padding: 8vh 5vh 15vh 5vh;
-    height: 60vh;
-    width: 90vw;
-    font-size: 2.5rem;
-    margin-top: 15vh;
-
-
-  }
-
-  #collaspasbtn {
-    margin-left: 64vw;
-    font-size: 24px;
-
-  }
-
-  #collaspasbtn:active {
-    font-size: 19px;
-  }
-
-
-  #icon {
-    font-size: 20px;
-  }
-
-  #icon:active {
-    font-size: 18px;
-  }
-
+  /* ..................................tABMediaPhone(420px)................................... */
   .tab-contaner {
 
     height: 200vh;
@@ -782,7 +781,6 @@ display: flex;
     height: 60.2vh;
     width: 95.2vw;
   }
-
 
 
   .tabimage {
@@ -809,23 +807,8 @@ display: flex;
     font-family: 'Poppins', sans-serif;
   }
 
-  .footer-container {
-    width: 100%;
-    height: 25vh;
- 
-  }
-
-  .social-logo {
-
-    margin-top: 8px;
-  }
-
-  .f-text {
-    height: 5vh;
-    padding: 4vh;  
-  }
- 
-  .quotae {
+  /*......................................QUOTAEmedia(420px)...................................................... */
+  */ .quotae {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -842,12 +825,30 @@ display: flex;
     font-size: 1.5rem;
   }
 
-  .news {
+  /*......................................NEWSmedia(420px)...................................................... */
+  */ .news {
     height: 6vh;
   }
 
+  /* ..........................................PROFILEmedia(420px)...................................................... */
   .profile h2 {
     font-size: 1.2rem;
+  }
+
+  /* ..........................................FOOTERmedia(420px)...................................................... */
+  .footer-container {
+    width: 100%;
+    height: 25vh;
+
+  }
+
+  .social-logo {
+    margin-top: 8px;
+  }
+
+  .f-text {
+    height: 5vh;
+    padding: 4vh;
   }
 
 }
